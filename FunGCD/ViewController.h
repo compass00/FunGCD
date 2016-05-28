@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic)IBOutlet UILabel* mainthreadState;
 
-
+@property (strong, nonatomic)IBOutlet UILabel* threadState;
+@property (nonatomic) int type;
+@property (nonatomic, strong) NSString* nvtitle;
 @end
 
